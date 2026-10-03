@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punti Pro — Informazioni e assistenza</title>
+  <meta name="description" content="Informazioni e assistenza per l'app Punti Pro: privacy, eliminazione account e supporto.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="intestazione">
+    <div class="contenitore">
+      <a class="marchio" href="index.html" data-testid="marchio-home">
+        <span class="marchio-pallino" aria-hidden="true"></span>
+        <span>Punti Pro<span class="marchio-sub">Informazioni e assistenza</span></span>
+      </a>
+      <button hidden class="menu-toggle" data-testid="menu-toggle" aria-expanded="false" aria-controls="menu-principale">Menu</button>
+      <nav id="menu-principale" class="navigazione" aria-label="Navigazione principale">
+        <a href="index.html" data-testid="nav-home" aria-current="page">Home</a>
+        <a href="privacy/" data-testid="nav-privacy">Privacy</a>
+        <a href="elimina-account/" data-testid="nav-elimina-account">Elimina account</a>
+        <a href="supporto/" data-testid="nav-supporto">Supporto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenuto">
+    <div class="contenitore">
+      <h1>Punti Pro — Informazioni e assistenza</h1>
+      <p class="intro">Questo sito raccoglie le informazioni essenziali sull'app Punti Pro per Android:
+        come vengono trattati i tuoi dati, come richiedere l'eliminazione dell'account e come contattarci.
+        Il sito non include moduli, cookie o strumenti di analisi. Il servizio di hosting può trattare dati tecnici di accesso: i dettagli saranno indicati nell’informativa prima della pubblicazione.</p>
+
+      <div class="schede">
+        <a class="scheda" href="privacy/" data-testid="scheda-privacy">
+          <h2>Informativa privacy <span class="freccia">→</span></h2>
+          <p>Quali dati tratta l'app, quando vengono usati servizi esterni e quali scelte hai a disposizione.</p>
+        </a>
+        <a class="scheda" href="elimina-account/" data-testid="scheda-elimina-account">
+          <h2>Elimina account e dati <span class="freccia">→</span></h2>
+          <p>Come cancellare account e dati dall'app o via email, anche senza reinstallare l'applicazione.</p>
+        </a>
+        <a class="scheda" href="supporto/" data-testid="scheda-supporto">
+          <h2>Supporto <span class="freccia">→</span></h2>
+          <p>Il nostro contatto diretto e le risposte alle domande più frequenti sull'app.</p>
+        </a>
+      </div>
+
+      <div class="nota">
+        <p>Per qualsiasi richiesta puoi scriverci a
+          <a href="mailto:puntiprowellness@gmail.com" data-testid="email-home">puntiprowellness@gmail.com</a>.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="piepagina">
+    <div class="contenitore">
+      <p>Punti Pro — Informazioni e assistenza. Sito di informazioni e assistenza dell'app Punti Pro.</p>
+      <p>Contatto: <a href="mailto:puntiprowellness@gmail.com" data-testid="email-footer">puntiprowellness@gmail.com</a></p>
+      <p>© <span data-testid="anno-corrente">2026</span> Punti Pro</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
