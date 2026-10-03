@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supporto — Punti Pro</title>
+  <meta name="description" content="Contatto e risposte alle domande essenziali sull'app Punti Pro.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="intestazione">
+    <div class="contenitore">
+      <a class="marchio" href="../index.html" data-testid="marchio-home">
+        <span class="marchio-pallino" aria-hidden="true"></span>
+        <span>Punti Pro<span class="marchio-sub">Informazioni e assistenza</span></span>
+      </a>
+      <button hidden class="menu-toggle" data-testid="menu-toggle" aria-expanded="false" aria-controls="menu-principale">Menu</button>
+      <nav id="menu-principale" class="navigazione" aria-label="Navigazione principale">
+        <a href="../index.html" data-testid="nav-home">Home</a>
+        <a href="../privacy/" data-testid="nav-privacy">Privacy</a>
+        <a href="../elimina-account/" data-testid="nav-elimina-account">Elimina account</a>
+        <a href="../supporto/" data-testid="nav-supporto" aria-current="page">Supporto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenuto">
+    <div class="contenitore">
+      <h1>Supporto</h1>
+      <p class="intro">Hai una domanda o un problema con l'app Punti Pro? Scrivici: ti risponderemo
+        il prima possibile.</p>
+
+      <div class="riquadro-email" data-testid="riquadro-email-supporto">
+        <span class="indirizzo">puntiprowellness@gmail.com</span>
+        <a class="pulsante" data-testid="pulsante-email-supporto"
+           href="mailto:puntiprowellness@gmail.com?subject=Supporto%20-%20Punti%20Pro">Scrivici un'email</a>
+      </div>
+
+      <h2>Domande frequenti</h2>
+      <div class="faq" data-testid="faq">
+        <details data-testid="faq-senza-account">
+          <summary>Posso usare Punti Pro senza creare un account?</summary>
+          <p>Sì. L'app Android consente l'uso in locale senza account. I dati del diario e del profilo sono salvati sul dispositivo; eventuali funzioni online possono contattare servizi esterni.
+            Se scegli l'accesso con Google, l'app tratta nome, email e foto profilo e sincronizza
+            i dati del tuo account.</p>
+        </details>
+        <details data-testid="faq-foto-ai">
+          <summary>La foto del mio piatto viene inviata a un servizio AI?</summary>
+          <p>Solo quando scegli tu di usare la funzione di analisi della foto. Senza una tua azione
+            esplicita, nessuna foto viene inviata.</p>
+        </details>
+        <details data-testid="faq-elimina">
+          <summary>Come elimino il mio account e i miei dati?</summary>
+          <p>Dall'app: Impostazioni → Account → Elimina account. In alternativa puoi scrivere a
+            puntiprowellness@gmail.com, anche senza l'app installata. Le istruzioni complete sono nella
+            pagina <a href="../elimina-account/">Elimina account</a>.</p>
+        </details>
+        <details data-testid="faq-abbonamento">
+          <summary>Eliminando l'account si annulla anche l'abbonamento?</summary>
+          <p>No. Cancellare l'account non annulla automaticamente un abbonamento Google Play.
+            Per interrompere il rinnovo, gestisci l'abbonamento da Google Play
+            (Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti).</p>
+        </details>
+        <details data-testid="faq-health-connect">
+          <summary>Come funziona il collegamento con Health Connect?</summary>
+          <p>Avviene solo su tua scelta e riguarda i dati relativi al peso. Se non autorizzi
+            il collegamento, l'app non legge né scrive alcun dato in Health Connect.</p>
+        </details>
+        <details data-testid="faq-pubblicita">
+          <summary>Quali dati tratta la pubblicità nell'app?</summary>
+          <p>Quando gli annunci sono attivi, Google AdMob può trattare dati tecnici del dispositivo.</p>
+        </details>
+        <details data-testid="faq-notifiche">
+          <summary>Come disattivo le notifiche?</summary>
+          <p>Puoi gestire o disattivare le notifiche dalle impostazioni del tuo dispositivo Android.</p>
+        </details>
+      </div>
+
+      <div class="nota">
+        <p>Cerchi informazioni sul trattamento dei dati? Leggi l'<a href="../privacy/" data-testid="link-privacy-da-supporto">informativa privacy</a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="piepagina">
+    <div class="contenitore">
+      <p>Punti Pro — Informazioni e assistenza. Sito di informazioni e assistenza dell'app Punti Pro.</p>
+      <p>Contatto: <a href="mailto:puntiprowellness@gmail.com" data-testid="email-footer">puntiprowellness@gmail.com</a></p>
+      <p>© <span data-testid="anno-corrente">2026</span> Punti Pro</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
