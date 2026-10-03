@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elimina account e dati — Punti Pro</title>
+  <meta name="description" content="Come richiedere l'eliminazione dell'account Punti Pro e dei dati associati, dall'app o via email.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="intestazione">
+    <div class="contenitore">
+      <a class="marchio" href="../index.html" data-testid="marchio-home">
+        <span class="marchio-pallino" aria-hidden="true"></span>
+        <span>Punti Pro<span class="marchio-sub">Informazioni e assistenza</span></span>
+      </a>
+      <button hidden class="menu-toggle" data-testid="menu-toggle" aria-expanded="false" aria-controls="menu-principale">Menu</button>
+      <nav id="menu-principale" class="navigazione" aria-label="Navigazione principale">
+        <a href="../index.html" data-testid="nav-home">Home</a>
+        <a href="../privacy/" data-testid="nav-privacy">Privacy</a>
+        <a href="../elimina-account/" data-testid="nav-elimina-account" aria-current="page">Elimina account</a>
+        <a href="../supporto/" data-testid="nav-supporto">Supporto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenuto">
+    <div class="contenitore">
+      <h1>Eliminazione account e dati</h1>
+      <p class="intro">Puoi richiedere la cancellazione del tuo account Punti Pro e dei dati associati in due modi:
+        direttamente dall'app oppure via email, <strong>anche senza l'app installata</strong>.</p>
+
+      <h2>Metodo 1 — Dall'app</h2>
+      <p>Se hai l'app installata, il percorso è:</p>
+      <p><span class="percorso" data-testid="percorso-elimina">Impostazioni → Account → Elimina account</span></p>
+      <p>La funzione elimina l'account e i dati salvati sul cloud; il profilo locale attivo sul dispositivo
+        viene cancellato.</p>
+      <p><strong>Richiedono una gestione separata:</strong></p>
+      <ul>
+        <li>copie dei dati presenti su altri dispositivi;</li>
+        <li>esportazioni che hai già scaricato;</li>
+        <li>dati salvati in Health Connect.</li>
+      </ul>
+
+      <h2>Metodo 2 — Via email (senza reinstallare l'app)</h2>
+      <p>Scrivi al nostro indirizzo indicando che vuoi eliminare account e dati. Non è necessario
+        reinstallare l'app. Se possibile, scrivi dall'indirizzo email associato all'account:
+        ci aiuta a identificarlo.</p>
+
+      <div class="riquadro-email" data-testid="riquadro-email-elimina">
+        <span class="indirizzo">puntiprowellness@gmail.com</span>
+        <a class="pulsante" data-testid="pulsante-email-elimina"
+           href="mailto:puntiprowellness@gmail.com?subject=Richiesta%20eliminazione%20account%20-%20Punti%20Pro&amp;body=Buongiorno%2C%0A%0Arichiedo%20l%27eliminazione%20del%20mio%20account%20Punti%20Pro%20e%20dei%20dati%20associati.%0A%0AEmail%20dell%27account%3A%20">Scrivi l'email con oggetto precompilato</a>
+        <p style="margin-top:1rem; font-size:0.9rem; color:#55625b;">Oggetto: “Richiesta eliminazione account - Punti Pro”</p>
+      </div>
+
+      <aside class="avviso" data-testid="avviso-abbonamento">
+        <h2>Attenzione: abbonamento Google Play</h2>
+        <p>Cancellare l'account <strong>non annulla automaticamente</strong> un eventuale abbonamento
+          Google Play. Per interrompere il rinnovo, gestisci l'abbonamento da Google Play
+          (Play Store → profilo → Pagamenti e abbonamenti → Abbonamenti).</p>
+        <p>Alcuni dati delle transazioni possono essere conservati dai fornitori
+          (Google Play, RevenueCat) per obblighi propri.</p>
+      </aside>
+
+      <aside class="avviso" data-testid="nota-da-completare">
+        <h2>Da completare prima della pubblicazione</h2>
+        <ul>
+          <li>tempi indicativi di evasione delle richieste via email (non ancora verificati);</li>
+          <li>eventuali informazioni aggiuntive da richiedere all'utente per identificare l'account.</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="piepagina">
+    <div class="contenitore">
+      <p>Punti Pro — Informazioni e assistenza. Sito di informazioni e assistenza dell'app Punti Pro.</p>
+      <p>Contatto: <a href="mailto:puntiprowellness@gmail.com" data-testid="email-footer">puntiprowellness@gmail.com</a></p>
+      <p>© <span data-testid="anno-corrente">2026</span> Punti Pro</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
