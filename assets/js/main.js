@@ -4,9 +4,18 @@ document.addEventListener('DOMContentLoaded', function () {
   if (toggle && nav) {
     toggle.hidden = false;
     nav.classList.add('menu-con-js');
+    toggle.setAttribute('aria-label', 'Apri menu');
     toggle.addEventListener('click', function () {
       var aperto = nav.classList.toggle('aperto');
       toggle.setAttribute('aria-expanded', aperto ? 'true' : 'false');
+      toggle.setAttribute('aria-label', aperto ? 'Chiudi menu' : 'Apri menu');
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('aperto');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Apri menu');
+      });
     });
   }
 
